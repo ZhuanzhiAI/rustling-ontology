@@ -1,0 +1,12 @@
+[package]
+name = "rustling-cli-debug"
+version = "0.17.5"
+authors = [">", ""]
+
+[dependencies]
+rustling = { git="https://github.com/maenzhier/rustling" }
+rustling-ontology-grammar = { path = "../grammar"}
+rustling-ontology-moment = { path = "../moment"}
+rustling-ontology-values = { path = "../values"}
+prettytable-rs = "0.6"
+clap = "2"

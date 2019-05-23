@@ -1,0 +1,9 @@
+[package]
+name = "rustling-ontology-es"
+version = "0.17.5"
+authors = ["hdlj <hubert.delajonquiere@maenzhier.net>"]
+
+[dependencies]
+rustling = { git="https://github.com/maenzhier/rustling"}
+rustling-ontology-moment = { path="../../moment"}
+rustling-ontology-values = { path="../../values"}
